@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body onload="">
+    
+    <div class="flex">
+        <div class="search-section">
+            <h2>Search</h2>
+            <div class="input">
+                <input type="text" name="search" class="search" id="search" placeholder="Search ..."><span onclick="clearSearch()"><i class="clear">X</i></span>
+            <p id="post-num"></p>
+            </div>
+        </div>
+        <div class="article">
+            <p><b>bitsofcode.</b> Articles on Frontend Development. All articles are written by <u>Ire Aderinokun,</u> Frontend Developer and User Interface Designer.</p>
+            <button class="twitter"><span><i class="fab fa-twitter"></i></span>Follow @ireaderinokun</button>
+            <button class="followers">19.1k followers</button>
+        </div>
+
+</div>
+    <div id="articles-list" ></div>
+    <script src="index.js"></script>
+</body>
+</html>
